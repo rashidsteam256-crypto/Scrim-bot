@@ -1,15 +1,16 @@
 {
-  "name": "scrim-bot",
+  "name": "bluelock-bot",
   "version": "1.0.0",
-  "description": "Blue Lock Scrim Discord Bot",
+  "description": "Blue Lock Rivals Discord Bot — scrim & inhouse manager",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
-    "discord.js": "^14.14.1"
-  },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.19.3"
   }
 }
