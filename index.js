@@ -285,7 +285,7 @@ http.createServer((req, res) => {
 // تسجيل دخول البوت من خلال التوكن المحفوظ في متغير البيئة Railway
 const TOKEN = process.env.DISCORD_TOKEN;
 if (TOKEN) {
-  client.login(TOKEN);
+  client.login(MTUzNDM1OTczMjE4NDE1ODMzMA.G4TW9B.asFCHtDGdi3Wpxrftvq9IqrEoSSSZd_z_LGQe8);
 } else {
   console.error("❌ خطأ: لم يتم ضبط متغير البيئة DISCORD_TOKEN في Railway!");
 }
